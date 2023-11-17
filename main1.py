@@ -82,3 +82,6 @@ if __name__ == '__main__':
         show[1] = timeConversion((show[1]))
         txt = "{time: <20} {show: <60} {episode: <60}"
         print(txt.format(time = show[1], show = show[2], episode = show[4]))
+
+
+    file.close()
